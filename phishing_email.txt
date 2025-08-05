@@ -1,0 +1,15 @@
+From: PayPal Support <support@paypa1-service.com>
+Subject: Urgent: Verify Your Account Now!
+
+Dear Customer,
+
+Your PayPal account has been flagged for suspicious activity. You must verify your account within 24 hours, or it will be suspended.
+
+Click here to verify: http://www.paypal.com.secure-login.xyz/verify
+
+Please update your information immediately to avoid account closure.
+
+Regards,
+PayPal Team
+
+[Attachment: invoice.pdf.exe]

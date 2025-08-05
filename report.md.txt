@@ -1,0 +1,26 @@
+Phishing Email Analysis Report
+
+Objective
+Identify phishing characteristics in a sample email.
+
+Email Sample
+
+- Source: PhishTank-inspired sample
+- File: `phishing_email.txt`
+
+Findings
+
+1. Sender Address**: `support@paypa1-service.com` is spoofed (misspelled “paypa1” vs. “paypal”).
+2. Headers**: SPF Fail and unknown server IP (192.168.1.1) via MXToolbox analysis.
+3. Links/Attachments**: Link to `secure-login.xyz` (mismatched from “paypal.com”). Attachment `invoice.pdf.exe` is suspicious.
+4. Language**: Urgent phrases: “Verify within 24 hours, or account will be suspended.”
+5. Spelling/Grammar**: Error: “verifiy” instead of “verify.”
+
+Conclusion
+
+The email exhibits spoofing, header discrepancies, malicious links, dangerous attachments, urgent language, and spelling errors, confirming it as a phishing attempt
+
+Tools Used
+
+- MXToolbox Email Header Analyzer
+- Text editor for email review
