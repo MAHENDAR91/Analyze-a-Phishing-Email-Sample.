@@ -10,11 +10,11 @@ Email Sample
 
 Findings
 
-1. Sender Address**: `support@paypa1-service.com` is spoofed (misspelled “paypa1” vs. “paypal”).
-2. Headers**: SPF Fail and unknown server IP (192.168.1.1) via MXToolbox analysis.
-3. Links/Attachments**: Link to `secure-login.xyz` (mismatched from “paypal.com”). Attachment `invoice.pdf.exe` is suspicious.
-4. Language**: Urgent phrases: “Verify within 24 hours, or account will be suspended.”
-5. Spelling/Grammar**: Error: “verifiy” instead of “verify.”
+1. Sender Address: `support@paypa1-service.com` is spoofed (misspelled “paypa1” vs. “paypal”).
+2. Headers: SPF Fail and unknown server IP (192.168.1.1) via MXToolbox analysis.
+3. Links/Attachments: Link to `secure-login.xyz` (mismatched from “paypal.com”). Attachment `invoice.pdf.exe` is suspicious.
+4. Language: Urgent phrases: “Verify within 24 hours, or account will be suspended.”
+5. Spelling/Grammar: Error: “verifiy” instead of “verify.”
 
 Conclusion
 
@@ -23,4 +23,5 @@ The email exhibits spoofing, header discrepancies, malicious links, dangerous at
 Tools Used
 
 - MXToolbox Email Header Analyzer
+
 - Text editor for email review
